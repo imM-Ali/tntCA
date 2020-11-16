@@ -55,7 +55,9 @@ public class TntCA {
         // HAIDER PLEASE ADD YOUR CODE HERE FOR SUBTRACTION OF a AND b
     }
     public static void Greet(){
-        // THIAGO PLEASE ADD YOUR CODE HERE FOR SAYING HELLO WORLD!
+
+        System.out.println("Hello, world !");
+
     }
     
     
