@@ -54,7 +54,9 @@ public class TntCA {
         
     }
     public static void Multiply(int a,int b){
-        // RENATO PLEASE ADD YOUR CODE HERE FOR MULTIPLICATION OF a AND b
+        //@ Renato Pedro Junior
+        int mult = a * b;
+        System.out.println(a + " times " + b + " is " + mult);
     }
     public static void Subtract(int a,int b){
         // HAIDER PLEASE ADD YOUR CODE HERE FOR SUBTRACTION OF a AND b
