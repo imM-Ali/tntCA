@@ -44,8 +44,13 @@ public class TntCA {
     }
     //REMEMBER GUYS YOU HAVE TO VARIABLES TO WORK WITH, a AND b, you just have to write the code and 1 line for output, thats it!
     public static void Add(int a,int b){
-        // YURI PLEASE ADD YOUR CODE HERE FOR ADDITION OF a AND b
-        
+         /**
+        *@author Yuri Ribeiro
+        * Add input1 and input2
+        * 
+        */
+        int Add = (a+b);
+        System.out.println("The sum is "+Add);
         
     }
     public static void Multiply(int a,int b){
