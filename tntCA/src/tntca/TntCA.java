@@ -7,15 +7,13 @@ package tntca;
 import java.util.*;
 /**
  *
- * @author Ali
+ * @author Muhammad Ali Shahzaib
  */
 public class TntCA {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // I WILL ADD THE MAIN METHOD (ALI)
+        
         int input1,input2;
         String select;
         Scanner myKb= new Scanner(System.in);
@@ -42,7 +40,7 @@ public class TntCA {
         }
         
     }
-    //REMEMBER GUYS YOU HAVE TO VARIABLES TO WORK WITH, a AND b, you just have to write the code and 1 line for output, thats it!
+    
     public static void Add(int a,int b){
          /**
         *@author Yuri Ribeiro
