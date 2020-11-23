@@ -22,7 +22,7 @@ public class TntCA {
         input1 = myKb.nextInt();
         System.out.println("Please Enter the next number");
         input2 = myKb.nextInt();
-        System.out.println("Press A to add, Press S to subtract, Press M to multiply, Press G for a greeting!");
+        System.out.printf("Press A to add\nPress S to subtract\nPress M to multiply\nPress G for a greeting\nPress H for a Surprise\n");
         select = myKb.next();
         
         switch(select.charAt(0)){
@@ -34,6 +34,8 @@ public class TntCA {
             case 'm': Multiply(input1,input2); break;
             case 'G':
             case 'g': Greet(); break;
+            case 'H':
+            case 'h': GreetAgain(); break;
             default:
                 break;
                 
@@ -67,6 +69,10 @@ public class TntCA {
 
         System.out.println("Hello, world !");
 
+    }
+    public static void GreetAgain(){
+        //@author Muhammad Ali Shahzaib
+        System.out.println("I am here to greet you again!!!!!!!!");
     }
     
     
