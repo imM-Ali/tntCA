@@ -59,7 +59,9 @@ public class TntCA {
         System.out.println(a + " times " + b + " is " + mult);
     }
     public static void Subtract(int a,int b){
-        // HAIDER PLEASE ADD YOUR CODE HERE FOR SUBTRACTION OF a AND b
+        // @ HAIDER SYED
+         int diff = (a-b);
+        System.out.println("The diff is "+diff);
     }
     public static void Greet(){
 
